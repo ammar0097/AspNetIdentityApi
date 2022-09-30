@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetIdentityDemo", "AspNetIdentityDemo\AspNetIdentityDemo.csproj", "{E7AACF11-EE3A-4593-A6B5-CE73176C205A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetIdentityDemo", "AspNetIdentityDemo\AspNetIdentityDemo.csproj", "{E7AACF11-EE3A-4593-A6B5-CE73176C205A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetIdentity.Shared", "AspNetIdentity.Shared\AspNetIdentity.Shared.csproj", "{815FE56D-AC45-4922-92D8-3F37F068939A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetIdentity.Shared", "AspNetIdentity.Shared\AspNetIdentity.Shared.csproj", "{815FE56D-AC45-4922-92D8-3F37F068939A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "front-react", "front-react\front-react.esproj", "{17CF12D8-BC86-4D76-BA5B-986361A42029}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{815FE56D-AC45-4922-92D8-3F37F068939A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{815FE56D-AC45-4922-92D8-3F37F068939A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{815FE56D-AC45-4922-92D8-3F37F068939A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CF12D8-BC86-4D76-BA5B-986361A42029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CF12D8-BC86-4D76-BA5B-986361A42029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CF12D8-BC86-4D76-BA5B-986361A42029}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{17CF12D8-BC86-4D76-BA5B-986361A42029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CF12D8-BC86-4D76-BA5B-986361A42029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CF12D8-BC86-4D76-BA5B-986361A42029}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
