@@ -1,5 +1,6 @@
 ﻿using AspNetIdentity.Shared;
 using AspNetIdentityDemo.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -48,6 +49,13 @@ namespace AspNetIdentityDemo.Controllers
                 return BadRequest(result); 
             }
             return BadRequest("Some properties are not valid!");
+        }
+
+        [HttpGet("User")]
+        [Authorize]
+        public async Task<IActionResult> User()
+        {
+            return Ok("User content");
         }
 
     }
